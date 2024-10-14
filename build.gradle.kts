@@ -11,6 +11,19 @@ repositories {
   mavenCentral()
 }
 
+val lombokVersion = "1.18.34"
+val collections4Version = "4.4"
+val commonsLang3Version = "3.17.0"
+
+dependencies {
+  implementation("org.projectlombok:lombok:$lombokVersion")
+  implementation("org.apache.commons:commons-collections4:$collections4Version")
+  implementation("org.apache.commons:commons-lang3:$commonsLang3Version")
+
+  annotationProcessor("org.projectlombok:lombok:$lombokVersion")
+}
+
+
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {

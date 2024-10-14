@@ -5,17 +5,40 @@
 
   <!-- Public plugin name should be written in Title Case.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-  <name>Dev-tracker</name>
+  <name>DEV Tracker</name>
 
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-  <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="support@sunecos.com" url="https://www.sunecos.com">Sunecos</vendor>
 
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
   <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    <h2>Development Time Tracker</h2>
+    <p>
+      The <strong>Development Time Tracker</strong> plugin helps
+      developers monitor and manage the time spent on projects.
+      Whether you are tracking productivity,
+      working towards better time management, or simply curious about your work patterns,
+      this plugin offers a convenient way to keep an eye on your development hours.
+    </p>
+    <h3>Features:</h3>
+    <ul>
+      <li>Track time spent on each project automatically.</li>
+      <li>Receive reminders when you’ve worked continuously for a set amount of time.</li>
+      <li>View total time worked on individual projects or across all open projects.</li>
+      <li>Simple and non-intrusive notifications to keep you informed.</li>
+      <li>Customizable settings for reminders and notifications.</li>
+    </ul>
+    <p>
+      <strong>Why use Development Time Tracker?</strong><br>Stay aware of how much time you’re dedicating to your work and improve your time management skills.
+    </p>
+    <h3>Contact & Support</h3>
+    <p>
+      For any questions or support,
+      please contact us at <a href="mailto:
+      support@sunecos.com">support@sunecos.com</a> or visit our website at <a href="https://sunecos.com">sunecos.com</a>.
+    </p>
   ]]></description>
 
   <!-- Product and plugin compatibility requirements.
